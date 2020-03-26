@@ -3,7 +3,9 @@ TARGET = adc
 
 # Define os fontes do projeto.
 SOURCES += \
-	main.c
+	main.c \
+	adc.c \
+	display.c
 
 # Modelo do microcontrolador.
 #   Arduino Uno  = atmega328p
