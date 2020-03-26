@@ -80,7 +80,7 @@ int ldr_read(void)
 
     value = adc_read(0);
 
-    value = value * (99 / 1023);
+    value = value * (99.0 / 1023.0);
 }
 
 int lm35_read(void)
