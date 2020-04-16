@@ -58,7 +58,7 @@ int main(void)
 
     sei();
 
-	while (1) {
+    while (1) {
         eeprom_write(addr, data);
 
         addr++;
@@ -67,8 +67,8 @@ int main(void)
         PORTE ^= 1 << PE3;
 
         _delay_ms(1000);
-	}
+    }
 
-	return 0;
+    return 0;
 }
 
