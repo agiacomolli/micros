@@ -11,7 +11,6 @@ void lcd_set_mode(char mode)
     } else {
         PORTG &= ~(1 << 1);
     }
-
 }
 
 /* Escreve um dado no barramento do LCD. */
